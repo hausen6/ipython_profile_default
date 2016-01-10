@@ -11,7 +11,7 @@ TARGETS = $(foreach file, $(TARGET_FILES), $(addprefix $(CURRENT_DIR)/, $(file))
 # rules
 .PHONY: install
 install: $(INSTALL_DIR)/
-	@$(foreach file, $(TARGETS), ln -svf $(file) $(INSTALL_DIR)/$(notdir $(file));)
+	@$(foreach file, $(TARGETS), ln -snvf $(file) $(INSTALL_DIR)/$(notdir $(file));)
 
 $(INSTALL_DIR)/:
 	mkdir -p $@
