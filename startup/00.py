@@ -14,6 +14,6 @@ try:
 except (ImportError) as e:
     print(e)
 try:
-    import seaborn as sns
+    import pandas as pd
 except (ImportError) as e:
     print(e)
