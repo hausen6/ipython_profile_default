@@ -1,5 +1,5 @@
 # directories
-SOURCE_DIR := scripts
+SOURCE_DIR := startup
 INSTALL_DIR := ~/.ipython/profile_default/startup
 
 # files
