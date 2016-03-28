@@ -10,10 +10,6 @@ try:
 except (ImportError) as e:
     print(e)
 try:
-    import matplotlib.pyplot as plt
-except (ImportError) as e:
-    print(e)
-try:
     import pandas as pd
 except (ImportError) as e:
     print(e)
